@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    background-color: #fff3ec;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: auto 20px;
+    
+    position:sticky;
+    top: 0;
+}
+
+#logo{
+    font-size: 40px;
+    padding-left: 50px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+#nav {
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+.other{
+    margin-right: 30px; 
+    cursor: pointer; 
+}
+
+.other:hover {
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 25px;
+}
+
+#chat-box {
+    color:white;
+    font-weight: bolder;
+    background-color:red;
+    width: 130px;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 50px;
+    cursor: pointer;
+
+    position: fixed; 
+    bottom: 60px;
+    right: 50px    
+}
+
+main {
+    margin: 10px 30px;
+}
+
+main p {
+    text-align:justify;
+    line-height: 1.5;
+    word-spacing: 10px;
+}
